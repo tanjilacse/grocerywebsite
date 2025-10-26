@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Grocery - Home</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://images.pexels.com/photos/2084239/pexels-photo-2084239.jpeg?auto=compress&cs=tinysrgb&w=50" alt="Grocery Logo">
+            <h1>Modern Grocery</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="category.html?cat=fruits">Fruits</a></li>
+                <li><a href="category.html?cat=vegetables">Vegetables</a></li>
+                <li><a href="category.html?cat=dairy">Dairy</a></li>
+                <li><a href="category.html?cat=bakery">Bakery</a></li>
+                <li><a href="cart.html" id="cart-link">Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="slider">
+                <div class="slide active" style="background-image: url('https://images.pexels.com/photos/128402/pexels-photo-128402.jpeg?auto=compress&cs=tinysrgb&w=1200')">
+                    <div class="hero-text">
+                        <h2>Fresh Groceries Delivered</h2>
+                        <p>Shop the best quality produce today!</p>
+                        <a href="category.html?cat=fruits" class="cta-button">Shop Now</a>
+                    </div>
+                </div>
+                <div class="slide" style="background-image: url('https://images.pexels.com/photos/1414651/pexels-photo-1414651.jpeg?auto=compress&cs=tinysrgb&w=1200')">
+                    <div class="hero-text">
+                        <h2>Organic & Healthy</h2>
+                        <p>Explore our organic range.</p>
+                        <a href="category.html?cat=vegetables" class="cta-button">Shop Now</a>
+                    </div>
+                </div>
+                <div class="slide" style="background-image: url('https://images.pexels.com/photos/209339/pexels-photo-209339.jpeg?auto=compress&cs=tinysrgb&w=1200')">
+                    <div class="hero-text">
+                        <h2>Freshly Baked Goods</h2>
+                        <p>Indulge in our bakery delights.</p>
+                        <a href="category.html?cat=bakery" class="cta-button">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button class="prev">&#10094;</button>
+                <button class="next">&#10095;</button>
+            </div>
+        </section>
+        <section class="featured">
+            <h2>Featured Products</h2>
+            <div id="featured-products" class="product-grid"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="https://images.pexels.com/photos/2084239/pexels-photo-2084239.jpeg?auto=compress&cs=tinysrgb&w=50" alt="Grocery Logo">
+                <h3>Modern Grocery</h3>
+            </div>
+            <div class="footer-links">
+                <a href="#">About Us</a>
+                <a href="#">Contact</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+            <p>&copy; 2025 Modern Grocery. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

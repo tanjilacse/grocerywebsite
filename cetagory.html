@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Grocery - Categories</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://images.pexels.com/photos/2084239/pexels-photo-2084239.jpeg?auto=compress&cs=tinysrgb&w=50" alt="Grocery Logo">
+            <h1>Modern Grocery</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="category.html?cat=fruits" class="cat-fruits">Fruits</a></li>
+                <li><a href="category.html?cat=vegetables" class="cat-vegetables">Vegetables</a></li>
+                <li><a href="category.html?cat=dairy" class="cat-dairy">Dairy</a></li>
+                <li><a href="category.html?cat=bakery" class="cat-bakery">Bakery</a></li>
+                <li><a href="cart.html" id="cart-link">Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="category">
+            <h2 id="category-title">Category</h2>
+            <div id="category-products" class="product-grid"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="https://images.pexels.com/photos/2084239/pexels-photo-2084239.jpeg?auto=compress&cs=tinysrgb&w=50" alt="Grocery Logo">
+                <h3>Modern Grocery</h3>
+            </div>
+            <div class="footer-links">
+                <a href="#">About Us</a>
+                <a href="#">Contact</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+            <p>&copy; 2025 Modern Grocery. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
